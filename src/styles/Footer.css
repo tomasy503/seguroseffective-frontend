@@ -1,0 +1,61 @@
+.footer {
+  background-color: #f8f8f8; /* Light background for the footer */
+  color: #333;
+  padding: 2rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem; /* Space above the map container */
+}
+
+.cta-section h2 {
+  font-size: 1.5rem; /* Large, readable text */
+  margin-bottom: 1rem; /* Space above the button */
+}
+
+.contact-button {
+  background-color: #0056b3; /* Same as the header button */
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 2rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+  background-color: #004494; /* Darker shade on hover */
+}
+
+.company-info {
+  text-align: right; /* Align the text to the right */
+}
+
+.footer-logo {
+  width: 200px; /* Adjust as needed */
+  margin-bottom: 1rem; /* Space below the logo */
+}
+
+.social-links {
+  margin-top: 1rem;
+}
+
+.social-icon {
+  font-size: 2rem; /* Size of the social icons */
+  margin-right: 0.5rem;
+  color: #333; /* Social icon color */
+}
+
+.social-icon:hover {
+  color: #0056b3; /* Adjust to match your site's color scheme */
+}
+
+.map-container iframe {
+  width: 100%; /* Full container width */
+  height: 300px; /* Adjust height as needed */
+  border: none; /* Remove iframe border */
+}

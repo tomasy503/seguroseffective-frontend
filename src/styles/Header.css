@@ -1,0 +1,45 @@
+.header {
+  background-color: #fff; /* Adjust to match your site's color scheme */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  padding: 1rem 2rem; /* Adjust padding to match your design */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 60px; /* Adjust based on your logo's aspect ratio */
+}
+
+.navigation ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1rem; /* Space between navigation items */
+}
+
+.navigation li {
+  padding: 0.5rem 0; /* Vertical padding for clickable area */
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #333; /* Adjust to match your site's color scheme */
+  font-weight: 500; /* Slightly bolder font for navigation */
+}
+
+.quote-button {
+  background-color: #0056b3; /* Adjust to match your site's color scheme */
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 2rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.quote-button:hover {
+  background-color: #004494; /* Darker shade on hover */
+}
